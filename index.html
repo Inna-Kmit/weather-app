@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <container>
+      <header>
+        <a
+          href="https://www.shecodes.io/"
+          target="_blank"
+          ref="noopener noreferrer"
+        >
+          <img
+            src="img/logo.png"
+            class="logo"
+            alt="She codes logo"
+            width="100px"
+          />
+        </a>
+      </header>
+      <main>
+        <section class="form_section">
+          <form class="form">
+            <input
+              type="search"
+              class="search_input"
+              placeholder="Enter a city"
+            required/>
+            <input type="submit" class="submit_btn" value="search" required/>
+          </form>
+        </section>
+        <section class="main_section">
+          <h1>San Francisco</h1>
+          <div class="temp">
+            <span class="main_temp">11</span>
+            <span class="celsium">°C</span>
+          </div>
+          <div class="main_weather">
+            <ul>
+              <li>
+                <p><strong>Thursday</strong><span>14:07</span></p>
+                <p>Few clouds</p>
+              </li>
+              <li>
+                <p>Humidity: <span>88%</span></p>
+              </li>
+              <li>
+                <p>Wind:<span>3,09 km/h</span></p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="table_section">
+          <table class="weatherforcast" border="1">
+            <tr>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+              <th>Mon</th>
+            </tr>
+            <tr>
+              <td>☁️</td>
+              <td>☀️</td>
+              <td>☀️</td>
+              <td>☀️</td>
+              <td>⛅</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="tem_max">19°</span>
+                <span class="tem_min">11°</span>
+              </td>
+              <td>
+                <span class="tem_max">16°</span>
+                <span class="tem_min">12°</span>
+              </td>
+              <td>
+                <span class="tem_max">16°</span>
+                <span class="tem_min">11°</span>
+              </td>
+              <td>
+                <span class="tem_max">17°</span>
+                <span class="tem_min">11°</span>
+              </td>
+              <td>
+                <span class="tem_max">18°</span>
+                <span class="tem_min">12°</span>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <footer>
+        <ul>
+          <li>
+            <p>This project was coded by</p>
+            <a
+              href="https://www.shecodes.io/"
+              target="_blank"
+              ref="noopener noreferrer"
+              >She Codes</a
+            >
+          </li>
+          <li>
+            <p>and is</p>
+            <a
+              href="https://github.com/Inna-Kmit/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >open-sourced on GitHub</a
+            >
+          </li>
+          <li>
+            <p>and</p>
+            <a
+              href="https://www.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >hosted on Netlify</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </container>
+    <script src="js/index.js"></script>
+  </body>
+</html>
